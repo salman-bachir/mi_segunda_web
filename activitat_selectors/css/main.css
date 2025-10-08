@@ -1,0 +1,43 @@
+/* Todos los elementos de la pagina */
+*{
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Todos los parrafos de la pagina */
+p{
+   color: blue;
+ }
+
+/* Todos los párrafos contenidos en "primero" */
+#primero p
+{
+  color: red;
+}
+
+/* Todos los enlaces la pagina */
+a
+{
+  color: rgb(0, 255, 60);
+}
+
+a:hover {
+  color: yellow
+
+}
+/* Los elementos "em" contenidos en "primero" */
+#primero em
+{
+  background-color: #FFFFCC;
+}
+
+/* Todos los elementos "em" de clase "especial" en toda la pagina */
+em.especial
+{
+  background-color: #FFCC99;
+}
+
+/* Elementos "span" contenidos en la clase normal */
+.normal span{
+  font-weight: bold;
+}
